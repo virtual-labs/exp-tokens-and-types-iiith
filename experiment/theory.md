@@ -24,5 +24,6 @@ The type/token distinction is applicable beyond language as well. For eg:
     Now, we notice that 'waste' and 'wasting' share a common root. So do 'do' and 'does'.
     Do we consider them as different types? The second approach is to consider them as a single type as inflections(different grammatical forms) of the same word (type).
     Therefore,
+
     #tokens=12 #types(root)=9 
 
