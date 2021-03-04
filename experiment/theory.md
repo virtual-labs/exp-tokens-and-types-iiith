@@ -13,13 +13,11 @@ Here,
 The type/token distinction is related to that between universals and particulars. Tokens are concrete particular instances of a general and abstract type.
 There is only one word 'the' (type) but many instances of it found on this page (token).
 
-The type/token distinction is applicable beyond language as well.
-For eg:
-    - Beethovena's Fifth Symphony and performances of it
-    - The white elephant and specimens of it
-    - Kentucky Fried Chicken and its centres
-
-    #### Types - (continued)
+The type/token distinction is applicable beyond language as well. For eg:
+- Beethovena's Fifth Symphony and performances of it
+- The white elephant and specimens of it
+- Kentucky Fried Chicken and its centres
+  #### Types - (continued)
 
     Study this example again: Do not waste time as wasting time does a lot of harm.
 
