@@ -5,9 +5,7 @@ For Eg: Do not waste time as wasting time does a lot of harm.
 
 
 Here,
-
 #tokens=12
-
 #types=11 (time has been repeated twice)
 
 #### Type vs token distinction
@@ -17,12 +15,11 @@ There is only one word 'the' (type) but many instances of it found on this page 
 
 The type/token distinction is applicable beyond language as well.
 For eg:
+    - Beethovena's Fifth Symphony and performances of it
+    - The white elephant and specimens of it
+    - Kentucky Fried Chicken and its centres
 
-    Beethovena's Fifth Symphony and performances of it
-    the white elephant and specimens of it
-    Kentucky Fried Chicken and its centres
-
-    **Types - (continued)**
+    #### Types - (continued)
 
     Study this example again: Do not waste time as wasting time does a lot of harm.
 
