@@ -5,7 +5,21 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-		<!-- Your code goes here-->
+  <div id="TOKEN_TYPE"></div>
+  <div align="center" id="mainContainer">
+    <form action="javascript:selectCorpus()" method="post" name="selector" target="_parent">
+      <select autocomplete="off" id="corp_opt" name="corp_opt" onchange="selectCorpus(this.value);">
+         ";
+         <option select="selected" value="-1">---Select a corpus---</option>
+         ";
+         <option value="*0">Corpus 1</option>
+         <option value="*1">Corpus 2</option>
+         <option value="*2">Corpus 3</option>
+      </select>
+   </form>
+</div>
+
+<!-- Your code goes here-->
 
 	<!-- Add JS at the bottom of HTML file --> 
         <script src="./js/main.js"></script>
