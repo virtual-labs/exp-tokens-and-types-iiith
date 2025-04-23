@@ -1,18 +1,23 @@
-    <!DOCTYPE html>
-<html>
-<head>
-    <!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-        <!-- Your code goes here-->
-
-    <p><li>Click <a href="./tokens/index.html" target="_new">here</a> to perform the experiment</li></p>
-
-<body>
-   
-
-    <!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Experiment Simulation</title>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div id="mainContainer" align="center">
+      <form id="corpusForm">
+        <label for="corp_opt">Select a corpus:</label>
+        <select id="corp_opt" name="corp_opt">
+          <option value="-1" selected>---Select a corpus---</option>
+        </select>
+        <button type="button" onclick="selectCorpus()">Load Corpus</button>
+      </form>
+      <div id="corpusDisplay"></div>
+      <div id="userInputForm"></div>
+      <div id="result1"></div>
+    </div>
+  </body>
 </html>
