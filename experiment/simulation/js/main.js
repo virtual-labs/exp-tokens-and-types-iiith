@@ -6,7 +6,7 @@ function getQueryParam(param) {
 
 // Function to load corpora and populate the dropdown
 function loadCorpora() {
-  fetch("/simulation/json/corpora.json")
+  fetch("./json/corpora.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -37,7 +37,7 @@ function loadCorpora() {
 
 // Function to load corpus data and display it
 function loadCorpus(corpusId) {
-  fetch("/simulation/json/corpora.json")
+  fetch("./json/corpora.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
